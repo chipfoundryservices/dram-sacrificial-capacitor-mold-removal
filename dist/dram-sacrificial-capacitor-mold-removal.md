@@ -1008,5 +1008,3 @@ Sources accessed during the 2026-10-04–2026-10-05 research session. Links iden
 - [DRAM Capacitor Support Layer Etch](https://github.com/chipfoundryservices/dram-capacitor-support-layer-etch): dedicated support-open scope.
 
 The series is a structural reference, not independent validation of the new book's numerical assumptions. No measured commercial etch rates, yield targets, or vendor prices are inferred from it.
-
-

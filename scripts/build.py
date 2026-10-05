@@ -36,7 +36,7 @@ def compile_book():
             raise ValueError(f'Unmapped book link: {path}: {target}')
         body = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', rewrite, path.read_text())
         pieces.append(f'<a id="{anchor(path)}"></a>\n\n{body}\n\n')
-    combined = '\n'.join(pieces)
+    combined = '\n'.join(pieces).rstrip() + '\n'
     content = markdown.markdown(combined, extensions=['tables', 'fenced_code'])
     document = '''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
