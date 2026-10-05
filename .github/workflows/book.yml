@@ -1,0 +1,26 @@
+name: Validate and build e-book
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  book:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/calculations.py
+      - run: python scripts/validate.py
+      - run: python scripts/build.py
+      - run: python scripts/validate.py --dist
+      - name: Check committed e-book matches build
+        run: git diff --exit-code -- dist/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dram-sacrificial-capacitor-mold-removal-ebook
+          path: dist/

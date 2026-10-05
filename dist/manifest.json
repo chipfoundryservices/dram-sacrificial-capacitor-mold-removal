@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0.0",
+  "sources": {
+    "PREFACE.md": "3ee0e3b4cfb866fa22b9055a0c40abdf3fff48799833b2e5719f93137b21fb21",
+    "INDEX.md": "c1aeef22ef82a6235eb0ef96306219aab80072feec27920fba263b414538e914",
+    "chapters/01-release-module.md": "ffd2b7368a7b5a1f10bdd9db5de89fd09d23aac59a5927c74ae0bebb52e65c8b",
+    "chapters/02-reference-geometry.md": "75cc0dc2414d78606155e823d6897aa05c1473b20040e4d27974a655992e195c",
+    "chapters/03-oxide-chemistry.md": "9f3be74efbd1543e655d94d36e3c781b77b1ba12ed98ba0fb1da481c46f27361",
+    "chapters/04-transport-access.md": "0b48df79d15f1a51a65efe548ab2e816f42a92fb4a338e35905e6773ad025b91",
+    "chapters/05-wet-hardware.md": "b06906ccf74a2161d07f445779f2216e372b8c658495ddacf9ea2d1329c434f8",
+    "chapters/06-vapor-hf.md": "cb0cdb7b918895f24479bd0c027e38b9c3320587d4bed9fd193a80880903801a",
+    "chapters/07-rinse-exchange.md": "8a1f4a56c43fda7d1f3957b148a791a179b71903763cc415cd833792e47a0ff6",
+    "chapters/08-drying-mechanics.md": "6f50546c38d53454ae41acdb9806ce9dc77938c1511c0259d80477a97c6d98e8",
+    "chapters/09-delivery-control.md": "176c013703fe97589222ee318d4aa0921594bccac840ab5ddb59af52fab2176f",
+    "chapters/10-support-survival.md": "e9c226c8f23b716f8d4be76f5d54af0d39fc6c4ee025a74158d8c59601c69bbc",
+    "chapters/11-electrode-surface.md": "34dc188e38d571c28ceb9b635da5a6bac9cd44edee67e575ddf8cbb6aa37c469",
+    "chapters/12-residual-stop.md": "54532e94d3ac257bf9b4086a1e18c4c8904102c3aabe3a353464ccf750f3df2d",
+    "chapters/13-failure-statistics.md": "0a6593372ff6c35fb91fee6f4bbfd586e64fd5d6cb79a8e68c7cc92bed5b6bdd",
+    "chapters/14-alternative-molds.md": "0708c56b2ffe8a7a1cd07bedc33facc6fba45ce03b794d8479b2126dfcf241a4",
+    "chapters/15-metrology-qualification.md": "6567b2e1441e52e4b7ad6ed6970b90a0699c4e6ea8b9cdd8545528f0e2ee5a25",
+    "chapters/16-integration-economics.md": "eb5bf754746cd419f218d9e7af2b93a79f87abf6309f71fc9d1e7e02a6bd7037",
+    "appendices/A-material-properties.md": "aac227783a4cfcd53d906b08c1c26d24af6c12744ad24a7311db6285f0a1f670",
+    "appendices/B-chemistry-reaction-data.md": "ff3b024d440172406b72bd84c6376d06c4e89d1a986ab6c62a6fbadfc77388d1",
+    "appendices/C-qualification-workflow.md": "820d9f64f1a9c84069f294630bdda091a6a800bffd3d4df5096d5a234e495eec",
+    "appendices/D-process-windows.md": "b7e0839765d6f17ec3201beb31346bfadde4da612b5e58033c42e28cf489dccc",
+    "appendices/E-worked-calculations.md": "d7fd2f6611536e21a45e9f18757b8c8c2de0a35dd628812ffdef124de763ad10",
+    "appendices/F-metrology-reference.md": "2de710c25d6c1433b1102dda4e1c1372910242e01b80ef8e96332f68dc1400bf",
+    "appendices/G-troubleshooting-guide.md": "bb561c6cd1a19d40bac29183c80aa5db4955f198b56da2e5af25954415f88699",
+    "GLOSSARY.md": "233d489fa667191137433f2b25a3ec16aa1e4f3a44d1197c6842af0e2a9ad9ce",
+    "REFERENCES.md": "6bde0900db770104554ba54416b52592574d81a27ed06e2997e0db7ab64764a1"
+  }
+}
